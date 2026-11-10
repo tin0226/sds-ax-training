@@ -1,9 +1,44 @@
 [
   {
     "id": "d2-01",
-    "question": "여기에 문서에 그대로 적힌 내용을 묻는 질문을 쓰세요",
+    "question": "연차는 며칠까지 이월되나요?",
     "type": "fact",
-    "expected_source": "leave_policy.md",
-    "_comment": "TODO 과제 중 필요 시 question 항목을 변경해주시거나 eval 케이스를 추가해주세요."
+    "expected_source": "leave_policy.md"
+  },
+  {
+    "id": "d2-02",
+    "question": "P1 장애는 몇 분 안에 상황을 공유해야 하나요?",
+    "type": "fact",
+    "expected_source": "incident_runbook.md"
+  },
+  {
+    "id": "d2-03",
+    "question": "온콜 인수인계는 언제 하나요?",
+    "type": "fact",
+    "expected_source": "oncall_policy.md"
+  },
+  {
+    "id": "d2-04",
+    "question": "올해 못 쓴 휴가를 내년으로 넘길 수 있나요?",
+    "type": "paraphrase",
+    "expected_source": "leave_policy.md"
+  },
+  {
+    "id": "d2-05",
+    "question": "배포하고 나서 에러율이 튀면 이전 버전으로 되돌려도 되나요?",
+    "type": "paraphrase",
+    "expected_source": "incident_runbook.md"
+  },
+  {
+    "id": "d2-06",
+    "question": "사내 헬스장 운영 시간은?",
+    "type": "no_answer",
+    "expected_source": null
+  },
+  {
+    "id": "d2-07",
+    "question": "국내 출장 식비 한도는 하루 얼마인가요?",
+    "type": "no_answer",
+    "expected_source": null
   }
 ]
