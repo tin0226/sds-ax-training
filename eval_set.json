@@ -40,5 +40,29 @@
     "question": "국내 출장 식비 한도는 하루 얼마인가요?",
     "type": "no_answer",
     "expected_source": null
+  },
+  {
+    "id": "d3-01",
+    "question": "HTTP 5xx 에러는 어떤 의미인가요?",
+    "type": "no_tool",
+    "expected_tools": []
+  },
+  {
+    "id": "d3-02",
+    "question": "payment-api의 현재 5분 에러율과 p99 지연은 얼마인가요?",
+    "type": "single_tool",
+    "expected_tools": [
+      "get_metrics"
+    ]
+  },
+  {
+    "id": "d3-03",
+    "question": "payment-api에서 5xx가 급증했습니다. 원인을 조사해 주세요.",
+    "type": "multi_tool",
+    "expected_tools": [
+      "get_deploy_history",
+      "get_logs",
+      "get_metrics"
+    ]
   }
 ]
