@@ -64,5 +64,22 @@
       "get_logs",
       "get_metrics"
     ]
+  },
+  {
+    "id": "d4-01",
+    "question": "SRV-002 자산 상태를 조회해 주세요. 백엔드가 타임아웃으로 계속 실패하면 대체 경로로라도 상태를 알려 주세요.",
+    "type": "tool_recovery",
+    "expected_tools": [
+      "get_asset_status",
+      "get_asset_status_backup"
+    ]
+  },
+  {
+    "id": "d4-02",
+    "question": "'disk-full' 증상의 런북을 찾아 주세요. 등록되지 않은 키워드라는 응답이 오면 안내된 키워드로 다시 찾아 주세요.",
+    "type": "tool_recovery",
+    "expected_tools": [
+      "search_runbook"
+    ]
   }
 ]
