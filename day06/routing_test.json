@@ -1,3 +1,10 @@
 [
-  {"question": "여기에 질문을 쓰세요", "expected": ["log_agent"]}
+  {"question": "payment-api 로그에 어떤 에러가 찍혔나요?", "expected": ["log_agent"]},
+  {"question": "order-api p99 latency와 CPU 사용률을 알려주세요.", "expected": ["metric_agent"]},
+  {"question": "인증서가 만료되면 누구에게 연락해야 하나요?", "expected": ["runbook_agent"]},
+  {"question": "Show me the stack trace of the latest exception.", "expected": ["log_agent"]},
+  {"question": "payment-api 5xx가 급증했는데 최근 배포 이후 에러율도 같이 봐 주세요.", "expected": ["log_agent", "metric_agent"]},
+  {"question": "메모리 사용량이 급증하면 어떤 절차로 대응하나요?", "expected": ["metric_agent", "runbook_agent"]},
+  {"question": "NullPointerException 로그를 확인하고 롤백 런북도 찾아 주세요.", "expected": ["log_agent", "runbook_agent"]},
+  {"question": "오늘 점심 메뉴 추천해줘", "expected": []}
 ]
