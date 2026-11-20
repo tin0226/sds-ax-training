@@ -1,0 +1,864 @@
+{
+  "week_id": "2026-W42",
+  "meals": [
+    {
+      "slot": "월-아침",
+      "attendees": [
+        "아빠",
+        "엄마",
+        "첫째",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST03",
+        "name": "현미밥"
+      },
+      "soup": {
+        "menu_id": "SP24",
+        "name": "청국장"
+      },
+      "main_side": {
+        "menu_id": "MS12",
+        "name": "두부조림"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB105",
+          "name": "숙주볶음"
+        },
+        {
+          "menu_id": "SB024",
+          "name": "스크램블에그"
+        },
+        {
+          "menu_id": "SB001",
+          "name": "시금치나물"
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "slot": "월-점심",
+      "attendees": [
+        "엄마",
+        "첫째"
+      ],
+      "staple": {
+        "menu_id": "ST15",
+        "name": "베이글"
+      },
+      "soup": {
+        "menu_id": "SP24",
+        "name": "청국장"
+      },
+      "main_side": {
+        "menu_id": "MS06",
+        "name": "닭갈비"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB016",
+          "name": "오이소박이"
+        },
+        {
+          "menu_id": "SB095",
+          "name": "가지튀김"
+        },
+        {
+          "menu_id": "SB073",
+          "name": "감자샐러드"
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "slot": "월-저녁",
+      "attendees": [
+        "아빠",
+        "엄마",
+        "첫째",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST06",
+        "name": "가래떡구이"
+      },
+      "soup": {
+        "menu_id": "SP22",
+        "name": "오이냉국"
+      },
+      "main_side": {
+        "menu_id": "MS14",
+        "name": "함박스테이크"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB103",
+          "name": "어묵조림"
+        },
+        {
+          "menu_id": "SB017",
+          "name": "파김치"
+        },
+        {
+          "menu_id": "SB097",
+          "name": "양송이볶음"
+        }
+      ],
+      "substitutes": [
+        {
+          "member": "아빠",
+          "category": "soup",
+          "menu_id": "SP20",
+          "name": "배추된장국"
+        }
+      ]
+    },
+    {
+      "slot": "화-아침",
+      "attendees": [
+        "아빠",
+        "엄마",
+        "첫째",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST12",
+        "name": "식빵"
+      },
+      "soup": {
+        "menu_id": "SP03",
+        "name": "김치찌개"
+      },
+      "main_side": {
+        "menu_id": "MS28",
+        "name": "탕수육"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB049",
+          "name": "오이피클"
+        },
+        {
+          "menu_id": "SB081",
+          "name": "잡채"
+        },
+        {
+          "menu_id": "SB076",
+          "name": "과일샐러드"
+        }
+      ],
+      "substitutes": [
+        {
+          "member": "둘째",
+          "category": "soup",
+          "menu_id": "SP27",
+          "name": "삼계탕"
+        },
+        {
+          "member": "아빠",
+          "category": "main_side",
+          "menu_id": "MS04",
+          "name": "고등어구이"
+        }
+      ]
+    },
+    {
+      "slot": "화-점심",
+      "attendees": [
+        "엄마",
+        "첫째"
+      ],
+      "staple": {
+        "menu_id": "ST13",
+        "name": "모닝빵"
+      },
+      "soup": {
+        "menu_id": "SP25",
+        "name": "감자탕"
+      },
+      "main_side": {
+        "menu_id": "MS23",
+        "name": "연어구이"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB015",
+          "name": "백김치"
+        },
+        {
+          "menu_id": "SB017",
+          "name": "파김치"
+        },
+        {
+          "menu_id": "SB077",
+          "name": "단무지무침"
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "slot": "화-저녁",
+      "attendees": [
+        "아빠",
+        "엄마",
+        "첫째",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST05",
+        "name": "인절미"
+      },
+      "soup": {
+        "menu_id": "SP15",
+        "name": "갈비탕"
+      },
+      "main_side": {
+        "menu_id": "MS12",
+        "name": "두부조림"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB030",
+          "name": "버섯볶음"
+        },
+        {
+          "menu_id": "SB008",
+          "name": "비름나물"
+        },
+        {
+          "menu_id": "SB007",
+          "name": "취나물"
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "slot": "수-아침",
+      "attendees": [
+        "아빠",
+        "엄마",
+        "첫째",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST10",
+        "name": "우동면"
+      },
+      "soup": {
+        "menu_id": "SP24",
+        "name": "청국장"
+      },
+      "main_side": {
+        "menu_id": "MS19",
+        "name": "돼지갈비찜"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB075",
+          "name": "코울슬로"
+        },
+        {
+          "menu_id": "SB062",
+          "name": "애호박전"
+        },
+        {
+          "menu_id": "SB057",
+          "name": "우엉조림"
+        }
+      ],
+      "substitutes": [
+        {
+          "member": "아빠",
+          "category": "main_side",
+          "menu_id": "MS12",
+          "name": "두부조림"
+        }
+      ]
+    },
+    {
+      "slot": "수-점심",
+      "attendees": [
+        "엄마",
+        "첫째"
+      ],
+      "staple": {
+        "menu_id": "ST10",
+        "name": "우동면"
+      },
+      "soup": {
+        "menu_id": "SP02",
+        "name": "된장찌개"
+      },
+      "main_side": {
+        "menu_id": "MS18",
+        "name": "닭강정"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB018",
+          "name": "갓김치"
+        },
+        {
+          "menu_id": "SB100",
+          "name": "시래기볶음"
+        },
+        {
+          "menu_id": "SB105",
+          "name": "숙주볶음"
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "slot": "수-저녁",
+      "attendees": [
+        "아빠",
+        "엄마",
+        "첫째",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST11",
+        "name": "메밀면"
+      },
+      "soup": {
+        "menu_id": "SP09",
+        "name": "감자국"
+      },
+      "main_side": {
+        "menu_id": "MS28",
+        "name": "탕수육"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB027",
+          "name": "연두부"
+        },
+        {
+          "menu_id": "SB042",
+          "name": "톳무침"
+        },
+        {
+          "menu_id": "SB050",
+          "name": "오이지무침"
+        }
+      ],
+      "substitutes": [
+        {
+          "member": "아빠",
+          "category": "main_side",
+          "menu_id": "MS14",
+          "name": "함박스테이크"
+        }
+      ]
+    },
+    {
+      "slot": "목-아침",
+      "attendees": [
+        "아빠",
+        "엄마",
+        "첫째",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST09",
+        "name": "소면"
+      },
+      "soup": {
+        "menu_id": "SP06",
+        "name": "콩나물국"
+      },
+      "main_side": {
+        "menu_id": "MS16",
+        "name": "새우튀김"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB072",
+          "name": "양배추샐러드"
+        },
+        {
+          "menu_id": "SB033",
+          "name": "팽이버섯전"
+        },
+        {
+          "menu_id": "SB003",
+          "name": "숙주나물"
+        }
+      ],
+      "substitutes": [
+        {
+          "member": "첫째",
+          "category": "main_side",
+          "menu_id": "MS12",
+          "name": "두부조림"
+        }
+      ]
+    },
+    {
+      "slot": "목-점심",
+      "attendees": [
+        "엄마",
+        "첫째"
+      ],
+      "staple": {
+        "menu_id": "ST04",
+        "name": "백설기"
+      },
+      "soup": {
+        "menu_id": "SP10",
+        "name": "어묵국"
+      },
+      "main_side": {
+        "menu_id": "MS17",
+        "name": "생선까스"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB023",
+          "name": "계란후라이"
+        },
+        {
+          "menu_id": "SB036",
+          "name": "오징어채무침"
+        },
+        {
+          "menu_id": "SB058",
+          "name": "콩자반"
+        }
+      ],
+      "substitutes": [
+        {
+          "member": "첫째",
+          "category": "soup",
+          "menu_id": "SP23",
+          "name": "콩비지찌개"
+        }
+      ]
+    },
+    {
+      "slot": "목-저녁",
+      "attendees": [
+        "아빠",
+        "엄마",
+        "첫째",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST12",
+        "name": "식빵"
+      },
+      "soup": {
+        "menu_id": "SP11",
+        "name": "계란국"
+      },
+      "main_side": {
+        "menu_id": "MS08",
+        "name": "수육"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB049",
+          "name": "오이피클"
+        },
+        {
+          "menu_id": "SB023",
+          "name": "계란후라이"
+        },
+        {
+          "menu_id": "SB076",
+          "name": "과일샐러드"
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "slot": "금-아침",
+      "attendees": [
+        "아빠",
+        "엄마",
+        "첫째",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST05",
+        "name": "인절미"
+      },
+      "soup": {
+        "menu_id": "SP13",
+        "name": "부대찌개"
+      },
+      "main_side": {
+        "menu_id": "MS30",
+        "name": "두부부침"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB093",
+          "name": "콘치즈"
+        },
+        {
+          "menu_id": "SB002",
+          "name": "콩나물무침"
+        },
+        {
+          "menu_id": "SB050",
+          "name": "오이지무침"
+        }
+      ],
+      "substitutes": [
+        {
+          "member": "둘째",
+          "category": "soup",
+          "menu_id": "SP11",
+          "name": "계란국"
+        }
+      ]
+    },
+    {
+      "slot": "금-점심",
+      "attendees": [
+        "엄마",
+        "첫째",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST06",
+        "name": "가래떡구이"
+      },
+      "soup": {
+        "menu_id": "SP13",
+        "name": "부대찌개"
+      },
+      "main_side": {
+        "menu_id": "MS15",
+        "name": "치킨너겟"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB031",
+          "name": "새송이버섯구이"
+        },
+        {
+          "menu_id": "SB066",
+          "name": "깻잎절임"
+        },
+        {
+          "menu_id": "SB042",
+          "name": "톳무침"
+        }
+      ],
+      "substitutes": [
+        {
+          "member": "둘째",
+          "category": "soup",
+          "menu_id": "SP28",
+          "name": "우거지국"
+        }
+      ]
+    },
+    {
+      "slot": "금-저녁",
+      "attendees": [
+        "아빠",
+        "엄마",
+        "첫째",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST10",
+        "name": "우동면"
+      },
+      "soup": {
+        "menu_id": "SP04",
+        "name": "순두부찌개"
+      },
+      "main_side": {
+        "menu_id": "MS07",
+        "name": "찜닭"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB098",
+          "name": "알감자조림"
+        },
+        {
+          "menu_id": "SB104",
+          "name": "깻잎순볶음"
+        },
+        {
+          "menu_id": "SB013",
+          "name": "총각김치"
+        }
+      ],
+      "substitutes": [
+        {
+          "member": "첫째",
+          "category": "soup",
+          "menu_id": "SP28",
+          "name": "우거지국"
+        },
+        {
+          "member": "둘째",
+          "category": "soup",
+          "menu_id": "SP28",
+          "name": "우거지국"
+        },
+        {
+          "member": "아빠",
+          "category": "main_side",
+          "menu_id": "MS24",
+          "name": "고추장불고기"
+        }
+      ]
+    },
+    {
+      "slot": "토-아침",
+      "attendees": [
+        "아빠",
+        "엄마",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST03",
+        "name": "현미밥"
+      },
+      "soup": {
+        "menu_id": "SP29",
+        "name": "크림수프"
+      },
+      "main_side": {
+        "menu_id": "MS28",
+        "name": "탕수육"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB010",
+          "name": "참나물무침"
+        },
+        {
+          "menu_id": "SB058",
+          "name": "콩자반"
+        },
+        {
+          "menu_id": "SB014",
+          "name": "열무김치"
+        }
+      ],
+      "substitutes": [
+        {
+          "member": "아빠",
+          "category": "main_side",
+          "menu_id": "MS31",
+          "name": "소시지야채볶음"
+        }
+      ]
+    },
+    {
+      "slot": "토-점심",
+      "attendees": [
+        "아빠",
+        "엄마",
+        "첫째",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST10",
+        "name": "우동면"
+      },
+      "soup": {
+        "menu_id": "SP11",
+        "name": "계란국"
+      },
+      "main_side": {
+        "menu_id": "MS08",
+        "name": "수육"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB029",
+          "name": "두부구이"
+        },
+        {
+          "menu_id": "SB091",
+          "name": "그린샐러드"
+        },
+        {
+          "menu_id": "SB063",
+          "name": "김치전"
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "slot": "토-저녁",
+      "attendees": [
+        "아빠",
+        "엄마",
+        "첫째",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST02",
+        "name": "잡곡밥"
+      },
+      "soup": {
+        "menu_id": "SP19",
+        "name": "아욱국"
+      },
+      "main_side": {
+        "menu_id": "MS01",
+        "name": "제육볶음"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB052",
+          "name": "가지무침"
+        },
+        {
+          "menu_id": "SB084",
+          "name": "떡볶이"
+        },
+        {
+          "menu_id": "SB093",
+          "name": "콘치즈"
+        }
+      ],
+      "substitutes": [
+        {
+          "member": "둘째",
+          "category": "main_side",
+          "menu_id": "MS10",
+          "name": "떡갈비"
+        }
+      ]
+    },
+    {
+      "slot": "일-아침",
+      "attendees": [
+        "아빠",
+        "엄마",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST12",
+        "name": "식빵"
+      },
+      "soup": {
+        "menu_id": "SP17",
+        "name": "떡만둣국"
+      },
+      "main_side": {
+        "menu_id": "MS26",
+        "name": "동그랑땡"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB067",
+          "name": "깻잎전"
+        },
+        {
+          "menu_id": "SB007",
+          "name": "취나물"
+        },
+        {
+          "menu_id": "SB023",
+          "name": "계란후라이"
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "slot": "일-점심",
+      "attendees": [
+        "아빠",
+        "엄마",
+        "첫째",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST08",
+        "name": "쑥떡"
+      },
+      "soup": {
+        "menu_id": "SP26",
+        "name": "닭개장"
+      },
+      "main_side": {
+        "menu_id": "MS10",
+        "name": "떡갈비"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB049",
+          "name": "오이피클"
+        },
+        {
+          "menu_id": "SB067",
+          "name": "깻잎전"
+        },
+        {
+          "menu_id": "SB048",
+          "name": "오이무침"
+        }
+      ],
+      "substitutes": [
+        {
+          "member": "둘째",
+          "category": "soup",
+          "menu_id": "SP30",
+          "name": "토마토수프"
+        },
+        {
+          "member": "아빠",
+          "category": "main_side",
+          "menu_id": "MS12",
+          "name": "두부조림"
+        }
+      ]
+    },
+    {
+      "slot": "일-저녁",
+      "attendees": [
+        "아빠",
+        "엄마",
+        "둘째"
+      ],
+      "staple": {
+        "menu_id": "ST14",
+        "name": "바게트"
+      },
+      "soup": {
+        "menu_id": "SP12",
+        "name": "시금치된장국"
+      },
+      "main_side": {
+        "menu_id": "MS01",
+        "name": "제육볶음"
+      },
+      "sub_sides": [
+        {
+          "menu_id": "SB105",
+          "name": "숙주볶음"
+        },
+        {
+          "menu_id": "SB047",
+          "name": "황태채무침"
+        },
+        {
+          "menu_id": "SB015",
+          "name": "백김치"
+        }
+      ],
+      "substitutes": [
+        {
+          "member": "둘째",
+          "category": "main_side",
+          "menu_id": "MS03",
+          "name": "돈가스"
+        }
+      ]
+    }
+  ]
+}
